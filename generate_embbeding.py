@@ -1,0 +1,4 @@
+!python "/DDI/GNN/main.py" --input "/content/drive/MyDrive/DDI/data5" --features "/content/drive/MyDrive/DDI/data5/featuers_m1.txt" --epoch 1 --dimensions 32
+!python "/DDI/GNN/main.py" --input "/content/drive/MyDrive/DDI/data5" --features "/content/drive/MyDrive/DDI/data5/featuers_m2.txt" --epoch 1 --dimensions 32
+!python "/DDI/GNN/main.py" --input "/content/drive/MyDrive/DDI/data5" --features "/content/drive/MyDrive/DDI/data5/featuers_m3.txt" --epoch 1 --dimensions 32
+!python "/DDI/GNN/main.py" --input "/content/drive/MyDrive/DDI/data5" --features "/content/drive/MyDrive/DDI/data5/featuers_m4.txt" --epoch 1 --dimensions 32
