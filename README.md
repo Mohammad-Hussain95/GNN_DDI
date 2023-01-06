@@ -1,6 +1,7 @@
 # GNN_DDI
 ---
-This repository provides a framework of two stages that combines several drug features to predict DDI associated events, using attributed heterogeneous networks and multiple deep neural networks. Firstly, it generates embedding for attributed heterogeneous networks using a GNN model,  next it uses multiple deep neural networks for DDI event prediction. We implement this model based on tensorflow, which enables this model to be trained with GPUs.
+This repository provides a framework of two stages that combines several drug features to predict DDI associated events, using attributed heterogeneous networks and multiple deep neural networks. Firstly, it generates embedding for attributed heterogeneous networks using a GNN model,  next it uses multiple deep neural networks for DDI event prediction. We implement this model based on tensorflow, which enables this model to be trained with GPUs. 
+For additional details, read the published article for this work through this [link](https://doi.org/10.1038/s41598-022-19999-4).
 
 ## Environments
 ---
@@ -15,6 +16,7 @@ This repository provides a framework of two stages that combines several drug fe
 
 ## Usage
 ---
+The data used in this project is derived from the study of [Deng et al.](https://doi.org/10.1093/bioinformatics/btaa501). You can access the data from [GitHub link](https://github.com/YifanDengWHU/DDIMDL).
 When using this code, you need to clone this repo and load all the files in the folder into your running environment first. Then, you should enter the root directory and run the following code:
 ```
     python prepare.py
