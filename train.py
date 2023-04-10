@@ -100,10 +100,10 @@ def cross_validation(feature_matrix, label_matrix, clf_type, event_num, seed, CV
         # =============================================================================
         feature_matrix = matrix
 
-    dnn = Conv_LSTM()
-    plot_model(dnn, show_shapes=True, to_file='ConvLSTM.png')
-    tf.keras.utils.plot_model(dnn, show_shapes=True, to_file='/content/drive/MyDrive/DDI/ConvLSTM.png')   
-    print(dnn.summary())
+#     dnn = DNN()
+#     plot_model(dnn, show_shapes=True, to_file='ConvLSTM.png')
+#     tf.keras.utils.plot_model(dnn, show_shapes=True, to_file='/content/drive/MyDrive/DDI/ConvLSTM.png')   
+#     print(dnn.summary())
     for k in range(CV):
         print("k : ",k)
         train_index = np.where(index_all_class != k)
